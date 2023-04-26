@@ -16,3 +16,14 @@
 ### Enabling WSL
 1. Search for "windows features" in your Start Menu and go to the following option. ![](images/windows-features-search.png)
 2. Enable the "Windows Subsystem for Linux" option. ![](images/windows-features.png)
+### Setting up Ruby and fastlane in a WSL terminal (You can also follow [these](https://docs.fastlane.tools/getting-started/android/setup/) steps instead)
+1. Install a Ruby environment manager like [rbenv](https://github.com/rbenv/rbenv) or [RVM](https://rvm.io/) and install a Ruby version that is 2.5 or later. (fastlane supports only Ruby versions 2.5 or later)
+2. Install Bundler.
+   ```
+	 gem install bundler
+3. Install fastlane.
+   ```
+	 gem install fastlane
+
+## Notes
+### RIDK
