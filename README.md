@@ -27,3 +27,20 @@
 
 ## Notes
 ### RIDK
+- Before changing versions, you must have other Ruby versions installed by RubyInstaller.
+- To see the versions you have installed, run
+  ```
+	ridk use list
+![](images/ridk-versions.png)
+- To change to a version, run
+  ```
+	ridk use <option number>
+	```
+	In this case, \<option number> can be 1 or 2.
+
+### Problems I encountered
+- Linux and Windows use different line endings.
+  - If you are coming from Windows into Linux or vice versa, make sure to re-install your modules.
+- Linux and Windows use slightly different Android SDKs.
+  - Follow [these](https://halimsamy.com/wsl-for-developers-installing-the-android-sdk) steps to install an Android SDK on WSL.
+  - Also remember to change your sdk.dir in your project's android/local.properties
