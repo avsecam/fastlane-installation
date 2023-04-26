@@ -44,3 +44,4 @@
 - Linux and Windows use slightly different Android SDKs.
   - Follow [these](https://halimsamy.com/wsl-for-developers-installing-the-android-sdk) steps to install an Android SDK on WSL.
   - Also remember to change your sdk.dir in your project's android/local.properties
+- Remember to add your global gradle.properties to your /home/\<username>/.gradle/ directory.
